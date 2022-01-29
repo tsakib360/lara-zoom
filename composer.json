@@ -1,0 +1,32 @@
+{
+    "name": "tsakib360/lara-zoom",
+    "description": "Package for Zoom API integration in Laravel application",
+    "require": {
+        "php": "^7.3|^8.0",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "firebase/php-jwt": "^6.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tsakib360\\LaraZoom\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tanvir Sakib",
+            "email": "tsakib360@gmail.com"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tsakib360\\LaraZoom\\LaraZoomServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}

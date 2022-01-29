@@ -10,10 +10,10 @@ Installation
 ------------
 
 **This package is created based on [Zoom API Documentation](https://marketplace.zoom.us/docs/api-reference/zoom-api).**
-Use composer to manage your dependencies and download LARA-ZOOM:
+Use composer to manage your dependencies and download LARAZOOM:
 
 ```bash
-composer require tsakib360/lara-zoom
+composer require tsakib360/larazoom
 ```
 
 Service Provider & Facade
@@ -28,6 +28,12 @@ Tsakib360\LaraZoom\LaraZoomServiceProvider::class,
 ```php
 'Zoom' => Tsakib360\LaraZoom\Facades\Zoom::class,
 ```
+
+##Publish Configuration
+```bash
+php artisan vendor:publish --provider="Tsakib360\LaraZoom\LaraZoomServiceProvider"
+```
+
 
 ## Usage
 

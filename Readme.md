@@ -29,7 +29,7 @@ Tsakib360\LaraZoom\LaraZoomServiceProvider::class,
 'Zoom' => Tsakib360\LaraZoom\Facades\Zoom::class,
 ```
 
-##Publish Configuration
+## Publish Configuration
 
 ```bash
 php artisan vendor:publish --provider="Tsakib360\LaraZoom\LaraZoomServiceProvider"
@@ -72,7 +72,7 @@ Methods List
 | createMeeting |  array   | https://marketplace.zoom.us/docs/api-reference/zoom-api/methods#operation/meetingCreate|
 | getMeetings   |  | https://marketplace.zoom.us/docs/api-reference/zoom-api/methods#operation/meetings|
 
-##Contact Me
+##  Contact Me
 
 For further information please email to this address: [tsakib360@gmail.com]()
 
